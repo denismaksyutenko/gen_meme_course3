@@ -1,0 +1,10 @@
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.csprojAssemblyReference.cache
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.Form1.resources
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.Properties.Resources.resources
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.csproj.GenerateResource.cache
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.csproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\bin\Debug\course_3gen_meme.exe.config
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\bin\Debug\course_3gen_meme.exe
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\bin\Debug\course_3gen_meme.pdb
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.exe
+C:\Users\denis\source\repos\course_3gen_meme\course_3gen_meme\obj\Debug\course_3gen_meme.pdb
