@@ -120,7 +120,7 @@ namespace course_3gen_meme
             {
                 graphics.DrawLines(pen, arrayPoints.getpoints());// рисует
                 pictureBox1.Image = bitmap;//присвоение рисунка
-                arrayPoints.Setpoints(e.X, e.Y);//чтоб линия не прирывалась
+                arrayPoints.Setpoints(e.X, e.Y);//чтоб линия не прирывалась 
             }
         }
 
@@ -185,13 +185,37 @@ namespace course_3gen_meme
         private void button5_Click(object sender, EventArgs e)
         {
             if (colorDialog2.ShowDialog() == DialogResult.OK)
+            {
                 label4.BackColor = colorDialog2.Color; //задание цвета
+                textBox1.BackColor = colorDialog2.Color;
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             label4.Text = textBox1.Text; //отображение текста на метке
             pictureBox1.Image = bitmap;// отображение текста
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://drive.google.com/drive/folders/1tcQEaoZilB53W82dU2-SsbP9eHTgUGZh?usp=sharing");
+            }
+            catch
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+        // кнопка цвета текста
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (colorDialog3.ShowDialog() == DialogResult.OK)
+            {
+                label4.ForeColor = colorDialog3.Color; //задание цвета
+                textBox1.ForeColor = colorDialog3.Color;
+            }
         }
     }
 }
