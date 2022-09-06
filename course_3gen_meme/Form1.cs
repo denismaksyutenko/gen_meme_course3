@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace course_3gen_meme
@@ -24,7 +18,7 @@ namespace course_3gen_meme
         }
         private class Arraypoints
         {
-            private int index = 0;//номер текущей точки в массиве
+            private int index = 0;//номер текущей точки0 в массиве
             private Point[] points;//массив точек
 
             public Arraypoints(int size)//конструктор для задания размера
@@ -54,10 +48,10 @@ namespace course_3gen_meme
         }
 
         private bool isMouse = false;//проверка на зажатую лкм
-        private Arraypoints arrayPoints = new Arraypoints(2); //экземпляр массива из двух точек
+        private Arraypoints arrayPoints = new Arraypoints(2); //обьект массива из двух точек
         Bitmap bitmap = new Bitmap(100, 100);//отвечает за хранение изображения
         Graphics graphics;
-        Pen pen = new Pen(Color.Black, 3f);//экземпляр кисти
+        Pen pen = new Pen(Color.Black, 3f);//обьект кисти
         private object currentlabel = null;// выбор метки
 
         // задача размера для bitmap
@@ -174,7 +168,7 @@ namespace course_3gen_meme
         {
             currentlabel = sender;
         }
-        // выбор шрифта, размера и цвета
+        // выбор шрифта и размера
         private void button4_Click(object sender, EventArgs e)
         {
             if (fontDialog1.ShowDialog() != DialogResult.OK) { return; }// задание шрифта
